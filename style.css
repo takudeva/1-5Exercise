@@ -1,0 +1,107 @@
+/*リセットCSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*ここからheader*/
+header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: solid #d3d3d3;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  border-bottom: solid #d3d3d3;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/*ここからmain*/
+.main {
+  width: 800px;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-content {
+  width: 200px;
+  height: 200px;
+}
+
+.content1 {
+  background-color: #e6ffe9;
+}
+
+.content2 {
+  background-color: #cbffd3;
+}
+
+.content3 {
+  background-color: #aeffbd;
+}
+
+.content4 {
+  background-color: #93ffab;
+}
+
+.content5 {
+  background-color: #f3ffd8;
+}
+
+.content6 {
+  background-color: #edffbe;
+}
+
+.content7 {
+  background-color: #e9ffa5;
+}
+
+.content8 {
+  background-color: #e4ff8d;
+}
+
+.content9 {
+  background-color: #d9e5ff;
+}
+
+.content10 {
+  background-color: #bad3ff;
+}
+
+.content11 {
+  background-color: #a4c6ff;
+}
+
+.content12 {
+  background-color: #8eb8ff;
+}
+
+/*ここからfooter*/
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: #808080;
+  text-align: center;
+  line-height: 120px;
+}
+
+.footer-text {
+  color: #fff;
+}
